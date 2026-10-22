@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio académico de ciberseguridad de Marlon Menez Sotelo, con una estética inspirada en Kali Linux.">
+  <title>Portafolio de ciberseguridad | Marlon Menez Sotelo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <dialog class="welcome-screen" aria-labelledby="welcome-title" aria-describedby="welcome-description">
+    <div class="matrix-rain" aria-hidden="true"></div>
+    <div class="welcome-content">
+      <div class="kali-binary-emblem kali-binary-emblem--welcome" role="img" aria-label="Dragón oficial de Kali Linux rodeado de dígitos binarios">
+        <span class="binary-stream binary-stream--one" aria-hidden="true">01010110 10100101 11001010 01101001</span>
+        <span class="binary-stream binary-stream--two" aria-hidden="true">11001010 01010110 00110101 10100110</span>
+        <span class="binary-stream binary-stream--three" aria-hidden="true">00110101 11100010 01011010 10010110</span>
+        <span class="binary-stream binary-stream--four" aria-hidden="true">10110100 01101001 11001010 01010110</span>
+        <span class="welcome-flame" aria-hidden="true"></span>
+        <img class="kali-dragon" src="https://gitlab.com/kalilinux/documentation/press-pack/-/raw/main/Kali/Logomark/kali-dragon-white.svg" alt="" aria-hidden="true">
+      </div>
+      <p class="welcome-kicker">Laboratorio de Aprendizaje · Kali Linux</p>
+      <h1 id="welcome-title"><em>Bienvenido.</em></h1>
+      <p id="welcome-description" class="welcome-description">Soy Marlon Menez. Explora mis proyectos y aprendizajes de ciberseguridad en un espacio inspirado en el entorno Kali Linux.</p>
+      <button class="welcome-button" type="button" autofocus>Entrar al laboratorio <span aria-hidden="true">↗</span></button>
+      <span class="welcome-signature">Proyecto académico independiente · no afiliado a Kali Linux</span>
+    </div>
+  </dialog>
+
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Marlon en el laboratorio, inicio"><span class="brand-mark">M</span><span class="brand-terminal">marlon@lab:<b>~</b>$</span></a>
+    <nav class="nav" id="navegacion-principal" aria-label="Navegación principal">
+      <a href="#perfil">PERFIL</a><a href="#evidencias">EVIDENCIAS</a><a href="#reflexion">REFLEXIÓN</a>
+    </nav>
+    <button class="menu-button" aria-label="Abrir menú" aria-controls="navegacion-principal" aria-expanded="false" title="Abrir menú"><span></span><span></span></button>
+  </header>
+
+  <main id="contenido">
+    <section class="hero section-wrap" id="inicio">
+      <div class="terminal-wallpaper" aria-hidden="true">
+        <pre class="ascii-block ascii-block--frame">┌──────────────────────────┐
+│  SYSTEM / LEARN / SECURE │
+│  [●]  ONLINE   [✓] SAFE  │
+└──────────────────────────┘</pre>
+        <pre class="ascii-block ascii-block--robot">     .-.-.
+    ( o o )
+    |  ^  |
+   /| [#] |\
+  /_|_____|_\</pre>
+        <pre class="ascii-block ascii-block--signal">     .-.
+   .(   ).
+  (  WIFI  )
+   `-._.-'
+   /  |  \</pre>
+        <pre class="ascii-block ascii-block--shield">   .-====-.
+  /  SEC   \
+ |   /\    |
+ |  /__\   |
+  \  ||  /
+   `-==-'</pre>
+        <pre class="ascii-block ascii-block--code">&lt; / &gt;  ::  &lt; / &gt;
+0101  1100  0110
+[  TERMINAL  ]
+root@lab:~$ _</pre>
+        <pre class="ascii-block ascii-block--grid">╔═══╗ ╔═══╗ ╔═══╗
+║ ◉ ║ ║ &gt;_║ ║ ✓ ║
+╚═══╝ ╚═══╝ ╚═══╝</pre>
+      </div>
+      <div class="hero-copy reveal"><p class="eyebrow"><span class="status-dot"></span> Kali Linux · laboratorio de aprendizaje</p>
+        <h1><span class="title-outline">Explora</span><br><em>Protege</em></h1>
+        <div class="hero-tools" aria-label="Áreas de aprendizaje: red, terminal y seguridad">
+          <span title="Red"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M4 12h16M12 4c2.5 2.2 3.7 4.9 3.7 8S14.5 17.8 12 20M12 4c-2.5 2.2-3.7 4.9-3.7 8S9.5 17.8 12 20"/></svg>NET</span>
+          <span title="Terminal"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="15" rx="2"/><path d="m7 9 3 3-3 3m6 0h4"/></svg>CMD</span>
+          <span title="Seguridad"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 7 3v5c0 4.7-2.8 7.8-7 10-4.2-2.2-7-5.3-7-10V6z"/><path d="m8.5 12 2.1 2.1 4.8-5"/></svg>SEC</span>
+        </div>
+        <p class="hero-intro">Un portafolio académico inspirado en Kali Linux para compartir lo que aprendo sobre seguridad digital, análisis de riesgos y buenas prácticas.</p>
+        <a class="scroll-link" href="#perfil">Entrar al laboratorio <span>↓</span></a>
+      </div>
+      <div class="hero-art reveal reveal-delay" aria-label="Terminal de aprendizaje en ciberseguridad" role="img"><div class="art-label">LAB // 01<br>ENTORNO SEGURO</div><div class="kali-binary-emblem kali-binary-emblem--hero" aria-hidden="true"><span class="binary-stream binary-stream--one">01010110 10100101 11001010</span><span class="binary-stream binary-stream--two">11001010 01010110 00110101</span><span class="binary-stream binary-stream--three">00110101 11100010 01011010</span><span class="binary-stream binary-stream--four">10110100 01101001 11001010</span><img class="kali-dragon" src="https://gitlab.com/kalilinux/documentation/press-pack/-/raw/main/Kali/Logomark/kali-dragon-white.svg" alt=""></div><div class="art-shortcuts" aria-hidden="true">
+        <div class="desktop-shortcut shortcut-browser"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="17"/><path d="M7 24h34M24 7c5 5 7 11 7 17s-2 12-7 17M24 7c-5 5-7 11-7 17s2 12 7 17M10 15h28M10 33h28"/></svg><span>web</span></div>
+        <div class="desktop-shortcut shortcut-files"><svg viewBox="0 0 48 48"><path d="M6 14a3 3 0 0 1 3-3h11l4 5h15a3 3 0 0 1 3 3v17a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3z"/><path d="M6 20h36"/></svg><span>archivos</span></div>
+        <div class="desktop-shortcut shortcut-console"><svg viewBox="0 0 48 48"><rect x="5" y="8" width="38" height="29" rx="4"/><path d="m13 18 7 5-7 5m12 1h10M18 37v4m12-4v4m-15 0h18"/></svg><span>terminal</span></div>
+        <div class="desktop-shortcut shortcut-security"><svg viewBox="0 0 48 48"><path d="M24 5 40 11v12c0 10-7 16-16 20C15 39 8 33 8 23V11z"/><path d="m16 24 5 5 11-12"/></svg><span>seguridad</span></div>
+      </div><div class="art-sun"></div><div class="art-terminal" aria-hidden="true"><div class="terminal-bar"><span></span><span></span><span></span><b>marlon@menez: ~</b></div><div class="terminal-body"><p class="terminal-command terminal-command--whoami"><i>marlon@lab</i>:~$ <span>whoami</span></p><strong class="terminal-output terminal-output--whoami">estudiante de ingeniería en sistemas computacionales</strong><p class="terminal-command terminal-command--objective"><i>marlon@lab</i>:~$ <span>especialidad</span></p><strong class="terminal-output terminal-output--objective">Seguridad informática</strong><p class="terminal-cursor"><i>marlon@lab</i>:~$ <b></b></p></div></div><div class="art-line"></div><div class="art-sticker">KALI<br><small>learn<br>secure</small></div></div>
+    </section>
+
+    <section class="dragon-scene" aria-label="Dragón decorativo de seguridad digital">
+      <div class="dragon-scene__copy"><span>// system guardian</span><strong>FIREWALL<br>ACTIVO</strong><small>protege · aprende · evoluciona</small></div>
+      <div class="fire-dragon" aria-hidden="true"><i class="dragon-flame dragon-flame--one"></i><i class="dragon-flame dragon-flame--two"></i><i class="dragon-flame dragon-flame--three"></i><img src="https://gitlab.com/kalilinux/documentation/press-pack/-/raw/main/Kali/Logomark/kali-dragon-white.svg" alt=""></div>
+    </section>
+    <div class="process-ticker" aria-label="Explorar, comprender, practicar y proteger con responsabilidad">
+      <div class="process-ticker__track" aria-hidden="true">
+        <span>explorar <i>&gt;_</i> comprender <i>&gt;_</i> practicar <i>&gt;_</i> proteger <i>&gt;_</i></span>
+        <span>explorar <i>&gt;_</i> comprender <i>&gt;_</i> practicar <i>&gt;_</i> proteger <i>&gt;_</i></span>
+      </div>
+    </div>
+
+    <section class="profile section-wrap" id="perfil"><div class="section-number">01 / perfil</div><div class="profile-grid"><div><p class="kicker">Hola, soy</p><h2>Marlon<br><em>Menez.</em></h2></div><div class="profile-copy"><p>Me interesa aprender cómo se protegen las personas y su información en el mundo digital. Aquí documento mis prácticas académicas, lo que descubro al usar herramientas como Kali Linux en entornos autorizados y las buenas prácticas que voy incorporando.</p><dl><div><dt>enfoque</dt><dd>Ciberseguridad</dd></div><div><dt>herramienta</dt><dd>Kali Linux</dd></div><div><dt>entorno</dt><dd>Práctica autorizada</dd></div></dl></div></div></section>
+
+    <section class="evidences section-wrap" id="evidencias"><div class="section-heading"><div><div class="section-number">02 / evidencias</div><h2 class="section-title">Seguridad en práctica</h2></div><p>Explora cada etapa de mi aprendizaje digital.</p></div><div class="evidence-grid">
+      <article class="evidence-card card-yellow reveal"><span class="card-number">01 / reconocer</span><span class="card-symbol" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M5 15a3 3 0 0 1 3-3h12l5 5h15a3 3 0 0 1 3 3v18a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3z"/><path d="M5 21h38M24 25l7 3v5c0 4-3 6-7 8-4-2-7-4-7-8v-5z"/><path d="m21 33 2 2 4-5"/></svg></span><h3>Unidad uno</h3><p>Conceptos básicos, riesgos digitales y protección de datos.</p><button class="view-button" data-title="Unidad uno" data-text="Aquí puedes escribir qué realizaste, qué evidencia vas a presentar y qué aprendiste durante esta unidad." aria-haspopup="dialog">ver evidencia <span aria-hidden="true">↗</span></button></article>
+      <article class="evidence-card card-blue reveal reveal-delay"><span class="card-number">02 / prevenir</span><span class="card-symbol" aria-hidden="true"><svg viewBox="0 0 48 48"><rect x="5" y="7" width="38" height="29" rx="4"/><path d="M5 14h38M11 10.5h.1m5 0h.1m5 0h.1M15 21l6 5-6 5m10 0h9m-16 5v5m12-5v5m-12 0h12"/></svg></span><h3>Unidad dos</h3><p>Buenas prácticas para cuidar cuentas, dispositivos e información.</p><button class="view-button" data-title="Unidad dos" data-text="Agrega aquí la descripción de tu segunda evidencia, el proceso que seguiste y el resultado obtenido." aria-haspopup="dialog">ver evidencia <span aria-hidden="true">↗</span></button></article>
+      <article class="evidence-card card-red reveal reveal-delay-2"><span class="card-number">03 / proteger</span><span class="card-symbol" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="m24 4 17 7v12c0 11-7 17-17 21C14 40 7 34 7 23V11z"/><path d="m16 24 6 6 12-13M24 4v7"/></svg></span><h3>Proyecto final</h3><p>Aplicación de lo aprendido para construir un entorno más seguro.</p><button class="view-button" data-title="Proyecto final" data-text="Describe tu proyecto final, sus objetivos, los recursos utilizados y la conclusión a la que llegaste." aria-haspopup="dialog">ver evidencia <span aria-hidden="true">↗</span></button></article>
+    </div></section>
+
+    <section class="reflection section-wrap" id="reflexion"><div class="section-number">03 / reflexión</div><div class="reflection-grid"><h2>Aprender<br>también es<br><em>proteger.</em></h2><div><p class="quote">“La seguridad comienza con curiosidad, conocimiento y responsabilidad.”</p><p>Cada práctica es una oportunidad para entender mejor el entorno digital, trabajar solo en laboratorios autorizados y convertir lo aprendido en hábitos que protejan a las personas.</p><a class="outline-link" href="mailto:tu-correo@ejemplo.com">contacto <span>↗</span></a></div></div></section>
+  </main>
+  <footer class="site-footer section-wrap"><span>Portafolio de evidencias · 2022-2027</span><span><strong>KALI LINUX™</strong> es una marca de OffSec. Proyecto académico independiente; no afiliado.</span><a href="#inicio">volver arriba ↑</a></footer>
+  <dialog class="evidence-modal" aria-labelledby="modal-title" aria-describedby="modal-description"><button class="close-modal" aria-label="Cerrar ventana" title="Cerrar ventana">×</button><span class="section-number">evidencia seleccionada</span><h2 id="modal-title"></h2><p id="modal-description"></p><p class="modal-note">Sustituye este texto con tu evidencia, imagen o enlace.</p></dialog>
+  <script src="main.js"></script>
+</body>
+</html>
