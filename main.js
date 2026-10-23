@@ -32,7 +32,10 @@ window.addEventListener('resize', renderMatrixRain);
 
 welcome.showModal();
 welcome.querySelector('.welcome-button').addEventListener('click', () => welcome.close());
-welcome.addEventListener('close', () => document.body.append(matrixRain));
+welcome.addEventListener('close', () => {
+  document.body.classList.add('matrix-rain--blue');
+  document.body.append(matrixRain);
+});
 
 menuButton.addEventListener('click', () => {
   const isOpen = menuButton.getAttribute('aria-expanded') !== 'true';
